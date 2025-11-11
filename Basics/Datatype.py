@@ -46,4 +46,6 @@ score = 25
 rr = 55.78
 name = "onkar"
 
+#Both works below
 print(f"Your name is {name} and score is {score} and runrate is {rr}")
+print("Your name is",name,"and score is",score,"and runrate is",rr)
