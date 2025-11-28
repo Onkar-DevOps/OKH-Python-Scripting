@@ -9,6 +9,8 @@ if height >= 100:
         bill = 5
     elif age <= 20:
         bill = 10
+    elif age >=45 and age <=50:
+        print("Free Ride")
     else:
         bill = 20
     photo = (input("Do you want photo ? Enter Y or N : "))
